@@ -7,7 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style>
+        .container-fluid{
+            background-image: url("http://cdn.dota2.com/apps/dota2/images/blog/play/bg_03.jpg");
+            background-size: cover;
+        }
+        #DotaLogo{
+            max-width: 650px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            padding: 1%;
+            font-family: 'Raleway';
+        }
+        body {
+            color: #999999;
+        }
+        * {
+	        font-family: 'Radiance';
+        }
+    </style>
     <title>Dota 2</title>
   </head>
   <body>
@@ -21,23 +40,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">News</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Pricing</a>
+                        <a href="#" class="nav-link">Store</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About us</a>
+                        <a href="#" class="nav-link">Heropedia</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <button class="btn btn-danger my-2 my-sm-0" type="submit">Play for Free</button>
         </div>
     </nav>
-
+    <div class="container-fluid p-4">
+            <div id="DotaLogo" class="d-flex justify-content-center w-100 mx-auto">
+                <img src="http://cdn.dota2.com/apps/dota2/images/blog/play/dota_logo.png" class="mw-100">
+             </div>
+             <h1 class="text-center">"A Modern Multiplayer Masterpiece"</h1>
+             <h3 class="text-center">&ndash;Destructoid</h3>
+            <p class="text-center"><a class="btn btn-danger btn-lg" href="#" role="button">Play for Free</a></p>
+            <h2 class="text-center"> Join the Battle. Bring your friends.</h2>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
