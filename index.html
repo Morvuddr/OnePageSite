@@ -8,28 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <style>
-        .container-fluid{
-            background-image: url("http://cdn.dota2.com/apps/dota2/images/blog/play/bg_03.jpg");
-            background-size: cover;
-        }
-        #DotaLogo{
-            max-width: 650px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            padding: 1%;
-            font-family: 'Raleway';
-        }
-        body {
-            color: #999999;
-        }
-        * {
-	        font-family: 'Radiance';
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css"> 
+
     <title>Dota 2</title>
   </head>
-  <body>
+  <body class="h-100">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="#" class="navbar-brand">
@@ -53,16 +37,49 @@
                 <button class="btn btn-danger my-2 my-sm-0" type="submit">Play for Free</button>
         </div>
     </nav>
-    <div class="container-fluid p-4">
+    <div id="mainContainer" class="container-fluid p-4">
             <div id="DotaLogo" class="d-flex justify-content-center w-100 mx-auto">
                 <img src="http://cdn.dota2.com/apps/dota2/images/blog/play/dota_logo.png" class="mw-100">
-             </div>
-             <h1 class="text-center">"A Modern Multiplayer Masterpiece"</h1>
-             <h3 class="text-center">&ndash;Destructoid</h3>
+            </div>
+            <h1 class="text-center">"A Modern Multiplayer Masterpiece"</h1>
+            <h3 class="text-center">&ndash;Destructoid</h3>
             <p class="text-center"><a class="btn btn-danger btn-lg" href="#" role="button">Play for Free</a></p>
             <h2 class="text-center"> Join the Battle. Bring your friends.</h2>
     </div>
 
+    <div id="threeBlocks" class="container-fluid">
+        <div class="row">
+            <div class="col-xl-4 d-flex flex-column align-items-end" style="color:white; background-image:url('http://cdn.dota2.com/apps/dota2/images/blog/play/bg_04.jpg'); background-size: cover; background-position: center;">
+                <h1 class="text-body text-center">The most-played game on Steam.</h1>
+                <p class="text-dark">Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has truly taken on a life of its own.</p>
+            </div>
+            <div class="col-xl-4 d-flex flex-column align-items-start" style="color:white; background-image:url('http://cdn.dota2.com/apps/dota2/images/blog/play/bg_05.jpg'); background-size: cover; background-position: center;">
+                <h1 class=".text-white text-center">One Battlefield. Infinite Possibilities.</h1>
+                <p class="text-white-50">When it comes to diversity of heroes, abilities, and powerful items, Dota boasts an endless array—no two games are the same. Any hero can fill multiple roles, and there's an abundance of items to help meet the needs of each game. Dota doesn't provide limitations on how to play, it empowers you to express your own style.</p>
+            </div>
+            <div class="col-xl-4 d-flex flex-column align-items-end" style="background-image:url('http://cdn.dota2.com/apps/dota2/images/blog/play/bg_06.jpg'); background-size: cover; background-position: center;">
+                <h1 class="text-body text-center">All heroes are free.</h1>
+                <p class="text-dark">Competitive balance is Dota's crown jewel, and to ensure everyone is playing on an even field, the core content of the game—like the vast pool of heroes—is available to all players. Fans can collect cosmetics for heroes and fun add-ons for the world they inhabit, but everything you need to play is already included before you join your first match.</p>
+            </div>
+        </div>
+    </div>
+    <div id="fullInfo" class="container-fluid">
+        <div id="fullInfoContainer" class="container">
+            <h1 class="text-center pt-5">Bring your friends and party up.</h1>
+            <p class="text-center">Dota is deep, and constantly evolving, but it's never too late to join.<br />Learn the ropes playing co-op vs. bots. Sharpen your skills in the hero demo mode. Jump into the behavior- and skill-based matchmaking system that ensures you'll be matched with the right players each game.</p>
+            <!-- <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+            </form> -->
+        </div>
+    </div>
+    <img src="http://cdn.dota2.com/apps/dota2/images/blog/play/bg_10.jpg" alt="" class="myFooter w-100">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
