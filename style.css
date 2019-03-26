@@ -5,9 +5,9 @@
 #DotaLogo{
     max-width: 650px;
 }
-/* .myFooter{
-    height: 600px;
-} */
+.myFooter{
+    width: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
     padding: 1%;
     font-family: 'Raleway';
@@ -53,5 +53,16 @@ body {
     }
     #threeBlocks p{
         width: 100%;
+    }
+}
+@media (max-width: 300px){
+    h1{
+        font-size: large;
+    }
+    h2, h3{
+        font-size: medium;
+    }
+    p {
+        font-size: small;
     }
 }
